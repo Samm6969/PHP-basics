@@ -1,0 +1,9 @@
+  regular switch
+  switch ($i) { 
+
+}
+*******************
+The below one is called alternative syntax. It exists to provide syntactic sugar!!
+switch ($i):
+
+endswitch;
