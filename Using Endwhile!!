@@ -1,0 +1,11 @@
+PHP offers the following alternative syntax for while loops:
+while(cond):
+   // looped statements go here
+endwhile;
+
+Note: the colon after the end parenthesis and the semicolon after the endwhile statement.
+*************************************************************************************************
+Traditional while loop:
+ while(cond) {
+       // looped statements go here
+    }
