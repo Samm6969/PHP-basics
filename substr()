@@ -1,0 +1,10 @@
+This function allows you to return a substring (piece of) of your string.
+
+Example:
+$myname = "David";
+
+// you can manipulate strings easily
+// with built-in funtions too
+$partial = substr($myname, 0, 3);
+print $partial;
+// prints "dav"
