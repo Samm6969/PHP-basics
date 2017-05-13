@@ -1,0 +1,13 @@
+This function is used to find the position of the first occurrence of a substring in a string.
+Example:
+strpos("emily", "e");   // 0
+strpos("emily", "i");   // 2
+strpos("emily", "ily"); // 2
+strpos("emily", "zxc"); // false
+
+Another example:
+if (strpos("david","h") === false) {
+  print "Sorry, no 'h' in 'david'";
+}
+// prints the "Sorry...." message
+
