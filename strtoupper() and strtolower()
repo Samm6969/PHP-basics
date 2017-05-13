@@ -1,0 +1,13 @@
+These functions make your entire string UPPERCASE or lowercase. 
+Here is an example of each:
+$uppercase = strtoupper($myname);
+print $uppercase;
+// prints "DAVID"
+
+$lowercase = strtolower($uppercase);
+print $lowercase;
+// prints "david"
+
+You can also call these functions on a string directly, like so:
+print strtolower("David");
+// prints "david"
