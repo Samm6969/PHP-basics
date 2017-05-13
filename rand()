@@ -1,0 +1,9 @@
+A very common and useful function.
+This function returns a random number between two numbers. 
+Optionally, you can provide your min and max numbers as parameters, like this:
+
+// prints a number between 0 and 32767
+print rand();
+
+// prints a number between 1 and 10
+print rand(1,10);
