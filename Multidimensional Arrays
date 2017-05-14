@@ -1,0 +1,13 @@
+In the below example, $deck is an array which contains 3 rows, each being a playing card. 
+Within each row, it has the name of the card, along with the value.
+Example:
+
+ <?php
+        $deck = array(array('2 of Diamonds', 2),
+                      array('5 of Diamonds', 5),
+                      array('7 of Diamonds', 7));
+        
+      // Imagine the first chosen card was the 7 of Diamonds.
+      // This is how we would show the user what they have:
+      echo 'You have the ' . $deck[2][0] . '!';
+      ?>
